@@ -1,0 +1,71 @@
+<div class="container">
+  {{!-- Heading Area --}}
+  <header>
+    <h1>Burger Boss</h1>
+  </header>
+  {{!-- ADD BURGER FORM --}}
+  <div>
+    <h2 class="add">Add-a-Burger!</h2>
+    <div id="info">To add your go to burger to the list below,
+      <br> 
+      simply type in the name of said burger and  <span>DEVOUR IT!</span></div>
+  </div>
+  <div>
+    <form class="createBurger-form">
+      <input id="newBurger-input" type="text" name="burger_name" placeholder="Enter a burger..."></input>
+      <button id="newBurger-input-submit" class="submitBurg" type="submit">Add Burger!</button>
+    </form>
+  </div>
+
+  {{!-- Devoured Burgers List --}}
+  <div class="container-list">
+    <div>
+      <div>
+        <h3>Generated Burgers</h3>
+        <div>
+          <ul>
+            {{#each burgers}}
+            {{#unless devoured}}
+            <p id="burgs">
+              {{burger_name}}
+            </p>
+            {{/unless}}
+            {{/each}}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+{{!-- Devour It column  --}}
+<div>
+    <h3>Devour it?</h3>
+    <div>
+        <ul>
+            {{#each burgers}}
+                {{#unless devoured}}
+                    <p class="dev-col">
+                        <button id="changed-devoured" class="changed-devoured" data-id="{{this.id}}">Devour!
+                        </button>
+                    </p>
+                {{/unless}}
+            {{/each}}
+        </ul>
+    </div>
+</div>
+
+    <div>
+      <h3>Devoured Burgers</h3>
+      <div>
+        <ul>
+          {{#each burgers}}
+          {{#if devoured}}
+          <p id="burgs">
+            {{burger_name}}
+          </p>
+          {{/if}}
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
