@@ -1,7 +1,8 @@
 # BurgerLogger
-    undefined
-
-        The Burger Logger application allows the user to add a burger to the table and "Devour" it with a click. This will send the burger to the "Devoured" list. The user interface is clean and polished for easy usage. 
+        The Burger Logger application allows the user to add a
+         burger to the table and "Devour" it with a click. 
+         This will send the burger to the "Devoured" list.
+          The user interface is clean and polished for easy usage. 
     
 
     ## Table Of Contents
@@ -27,7 +28,8 @@
     
 
     ## Questions
-    For any follow up questions, plese feel free to contact me at my GitHub page: [GitHub Profile](https://github.com/Maddisontaitno/BurgerLogger).
+    For any follow up questions, plese feel free to contact me at my GitHub page:
+     [GitHub Profile](https://github.com/Maddisontaitno/BurgerLogger).
     
     ## License
     [MIT](https://choosealicense.com/licenses/mit/)
