@@ -18,7 +18,7 @@
     ## Installation
     you must install the following packages for the ReadMe to be generated
 
-    fs and inquirer and mySQL
+    fs and inquirer
     
    
     
@@ -26,9 +26,11 @@
     Please go through the following steps to run this application 
     You'll need to install depencencies. You can do that by running npm i in the terminal.
 
-    ![alt text](http://url/to/burger.png)
-    ![alt text](http://url/to/burger2.png)
-    
+    ## Code Snippets 
+<img src="/public/assets/images/burger.png" alt=""/>
+
+<img src="/public/assets/images/burger2.png" alt="My cool logo"/>
+
 
     ## Questions
     For any follow up questions, plese feel free to contact me at my GitHub page:
