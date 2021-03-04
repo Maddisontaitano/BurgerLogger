@@ -18,13 +18,16 @@
     ## Installation
     you must install the following packages for the ReadMe to be generated
 
-    fs and ingquirer
+    fs and inquirer and mySQL
     
    
     
     ## Usage
     Please go through the following steps to run this application 
     You'll need to install depencencies. You can do that by running npm i in the terminal.
+
+    ![alt text](http://url/to/burger.png)
+    ![alt text](http://url/to/burger2.png)
     
 
     ## Questions
