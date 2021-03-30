@@ -10,8 +10,8 @@
  *[usage](#usage)
  *[license](#license)
  *[contribution](#contribution)
-  *[tests](#tests)
-  *[questions](#questions)
+ *[tests](#tests)
+*[questions](#questions)
 
 
 ## Installation
